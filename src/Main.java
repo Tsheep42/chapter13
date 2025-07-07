@@ -17,6 +17,6 @@ public class Main {
         System.out.println(h.getName() + "の現在のHP: " + h.getHp());
         System.out.println(h.getName() + "は、眠って回復した！");
 
-        h.attack(Matango m);
+        h.attack(m);
     }
 }
