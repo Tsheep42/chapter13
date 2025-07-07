@@ -6,7 +6,7 @@ public class Main {
         h.setName("ミナト");
         System.out.println(h.getName() + "の現在のHP: " + h.getHp());
 
-        Matango m = new Matango("お化けキノコA",50);
+        Matango m = new Matango('A');
 
         King k = new King();
         k.talk(h);
